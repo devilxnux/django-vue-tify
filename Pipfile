@@ -1,0 +1,19 @@
+[[source]]
+
+verify_ssl = true
+name = "pypi"
+url = "https://pypi.python.org/simple"
+
+
+[packages]
+
+django = "*"
+pytz = "*"
+
+
+[dev-packages]
+
+pylint-django = "*"
+rope = "*"
+"autopep8" = "*"
+django-webpack-loader = "*"

@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": "./client/src",
+    "types": [
+      "webpack-env",
+      "vuetify"
+    ],
+    "rootDir": "client/src",
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
+  },
+  "include": [
+    "client/src/**/*.ts",
+    "client/src/**/*.tsx",
+    "client/src/**/*.vue",
+    "client/tests/**/*.ts",
+    "client/tests/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
