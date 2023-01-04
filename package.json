@@ -19,9 +19,9 @@
   },
   "devDependencies": {
     "@mdi/font": "^4.2.95",
-    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-plugin-babel": "^5.0.8",
     "@vue/cli-plugin-typescript": "^3.9.0",
-    "@vue/cli-service": "^3.9.0",
+    "@vue/cli-service": "^5.0.8",
     "hard-source-webpack-plugin": "^0.13.1",
     "prettier": "^1.18.2",
     "sass": "^1.17.4",
